@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/stw304cem/t2-backend-api-RajuDangol45/issues"
   },
-  "homepage": "https://github.com/stw304cem/t2-backend-api-RajuDangol45#readme"
+  "homepage": "https://github.com/stw304cem/t2-backend-api-RajuDangol45#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "errorhandler": "^1.5.1",
+    "express": "^4.17.1"
+  }
 }
