@@ -12,7 +12,12 @@ function addUser(userBody) {
   return user.save();
 }
 
+function getUser(userId) {
+  return userModel.findById(userId).exec();
+}
+
 module.exports = {
   getAllUsers,
-  addUser
+  addUser,
+  getUser
 }

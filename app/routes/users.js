@@ -1,6 +1,6 @@
 const app = module.exports = require('express')();
 
-const { getAllUsers, addUser } = require('../actions').users;
+const { getAllUsers, addUser, getUser } = require('../actions').users;
 
 app.get('/', (req, res) => {
   getAllUsers()
@@ -25,6 +25,20 @@ app.post('/add', (req, res) => {
       res.status(400).send(
         {
           msg: 'Failed to add user', err
+        }
+      );
+    })
+});
+
+app.get('/:id', (req, res) => {
+  getUser(req.params.id)
+    .then((user) => {
+      res.json(user);
+    })
+    .catch((err) => {
+      res.status(400).send(
+        {
+          msg: 'Failed to get user', err
         }
       );
     })
