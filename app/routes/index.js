@@ -5,6 +5,7 @@ app.get('/', (req, res) => {
 });
 
 app.use('/users', require('./users'));
+app.use('/disasters', require('./disaster'));
 
 app.all('*', (req, res) => {
   res.status(404).send({msg: 'Route not found'});

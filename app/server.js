@@ -18,7 +18,7 @@ function run() {
   app.use(routes);
   mongoose.connect(config.orm.db.client + '://' + config.orm.db.connection.host + '/' + config.orm.db.connection.database);
   app.listen(config.server.port, config.server.host, () => {
-    console.log(`app running on http://${config.server.host}:${config.server.port}`);
+    console.log(`api available on http://${config.server.host}:${config.server.port}`);
   });
 }
 
