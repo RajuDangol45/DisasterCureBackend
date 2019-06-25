@@ -1,8 +1,6 @@
 const express = require('express');
 const disasterModel = require('../models/disaster');
 
-const app = express();
-
 function getAllDisasters() {
   return disasterModel.find().exec();
 }
@@ -12,12 +10,12 @@ function addDisaster(disasterBody) {
   return user.save();
 }
 
-function getDisaster(disasterID) {
+function getDisasterById(disasterID) {
   return disasterModel.findById(disasterID).exec();
 }
 
 module.exports = {
   getAllDisasters,
   addDisaster,
-  getDisaster
+  getDisasterById
 }

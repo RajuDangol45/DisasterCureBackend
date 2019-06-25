@@ -1,6 +1,6 @@
 const app = module.exports = require('express')();
 
-const { getAllUsers, addUser, getUser } = require('../actions').users;
+const { getAllUsers, addUser, getUserById } = require('../actions').users;
 
 app.get('/', (req, res) => {
   getAllUsers()
@@ -31,7 +31,7 @@ app.post('/add', (req, res) => {
 });
 
 app.get('/:id', (req, res) => {
-  getUser(req.params.id)
+  getUserById(req.params.id)
     .then((user) => {
       res.json(user);
     })

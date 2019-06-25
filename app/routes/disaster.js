@@ -1,6 +1,6 @@
 const app = module.exports = require('express')();
 
-const { getAllDisasters, getDisaster, addDisaster } = require('../actions').disasters;
+const { getAllDisasters, getDisasterById, addDisaster } = require('../actions').disasters;
 
 app.get('/', (req, res) => {
   getAllDisasters()
@@ -31,7 +31,7 @@ app.post('/add', (req, res) => {
 });
 
 app.get('/:id', (req, res) => {
-  getDisaster(req.params.id)
+  getDisasterById(req.params.id)
     .then((user) => {
       res.json(user);
     })

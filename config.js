@@ -19,7 +19,8 @@ module.exports = {
   },
 
   auth: {
-    tokenLifeTime: 365 * 24 * 3600 * 1000
+    tokenLifeTime: 365 * 24 * 3600 * 1000,
+    secret: '5034438825'
   },
 
   headers: {

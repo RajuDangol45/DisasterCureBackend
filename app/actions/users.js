@@ -1,8 +1,6 @@
 const express = require('express');
 const userModel = require('../models/user');
 
-const app = express();
-
 function getAllUsers() {
   return userModel.find().exec();
 }
@@ -12,12 +10,12 @@ function addUser(userBody) {
   return user.save();
 }
 
-function getUser(userId) {
+function getUserById(userId) {
   return userModel.findById(userId).exec();
 }
 
 module.exports = {
   getAllUsers,
   addUser,
-  getUser
+  getUserById
 }
