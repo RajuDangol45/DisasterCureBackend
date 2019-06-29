@@ -14,7 +14,7 @@ function run() {
   app.use(bodyParser.urlencoded({ extended: true }));
   app.use(bodyParser.json({ limit: '50mb' }));
   app.use(cors());
-  app.use(jwt());
+  // app.use(jwt());
   app.use(errorHandler);
   app.set('baseUrl', config.backend.url);
   app.use(routes);
