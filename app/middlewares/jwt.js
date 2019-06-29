@@ -3,8 +3,8 @@ const config = require('../../config');
 const userService = require('../actions/users');
 
 function jwt() {
-  const secret = config.auth.secret;
-  return expressJwt({ secret, isRevoked }).unless({
+  const key = config.auth.secret;
+  return expressJwt({ key, isRevoked }).unless({
     path: [
       { url: /^\/users\/.*/, methods: ['GET'] },
       { url: '/disasters', methods: ['GET'] },
