@@ -15,7 +15,7 @@
     "firstName": "Jimi",
     "lastName": "Hendrix",
     "password": "jimi1",
-    "email": "jimi_hendrix@gmail.com",
+    "email": "jimi_hendrix@gmail.com'",
     "age": 31,
     "createdAt": "2019-06-18T11:34:44.633Z",
     "updatedAt": "2019-06-18T11:34:44.633Z",
