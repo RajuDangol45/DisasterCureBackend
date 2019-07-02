@@ -1,0 +1,41 @@
+[
+  {
+    "_id": "5d08cc1566445d3bdc8e4541",
+    "request_id": "5d08cd4066445d3bdc8e4546",
+    "helped_units": 1,
+    "helped_by": "5d08cc1566445d3bdc8e4541",
+    "help_date": "2019-06-18T11:33:41.857Z",
+    "help_title": "Help Title 1",
+    "pending": false,
+    "help_worth": 10,
+    "createdAt": "2019-06-18T11:33:41.857Z",
+    "updatedAt": "2019-06-18T11:33:41.857Z",
+    "__v": 0
+  },
+  {
+    "_id": "5d08cc1566445d3bdc8e4542",
+    "request_id": "5d08cd4066445d3bdc8e4545",
+    "helped_units": 10,
+    "helped_by": "5d08cc1566445d3bdc8e4541",
+    "help_date": "2019-06-18T11:33:41.857Z",
+    "help_title": "Help Title 1",
+    "pending": false,
+    "help_worth": 100,
+    "createdAt": "2019-06-18T11:33:41.857Z",
+    "updatedAt": "2019-06-18T11:33:41.857Z",
+    "__v": 0
+  },
+  {
+    "_id": "5d08cc1566445d3bdc8e4543",
+    "request_id": "5d08cd4066445d3bdc8e4544",
+    "helped_units": 1,
+    "helped_by": "5d08cc1566445d3bdc8e4542",
+    "help_date": "2019-06-18T11:33:41.857Z",
+    "help_title": "Help Title 1",
+    "pending": false,
+    "help_worth": 100,
+    "createdAt": "2019-06-18T11:33:41.857Z",
+    "updatedAt": "2019-06-18T11:33:41.857Z",
+    "__v": 0
+  }
+]

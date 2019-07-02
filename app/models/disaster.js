@@ -6,7 +6,10 @@ const disasterSchema = mongoose.Schema({
   occurance_date: String,
   injury_count: Number,
   death_count: Number,
-  location: String
+  location: String,
+  images: Array,
+  latitude: Number,
+  longitude: Number
 }, {
   timestamps: true
 });

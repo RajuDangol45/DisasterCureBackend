@@ -1,24 +1,56 @@
 [
   {
     "_id": "5d10feac28ef152f2c32db43",
-    "title": "Indonesia earthquakes and tsunami",
+    "title": "AIndonesia earthquakes and tsunami",
     "description": "More than 400 people are reported dead after a tsunami struck western Java and southern Sumatra islands during the evening of Dec. 22. Indonesia’s geological and weather service says the tsunami was likely caused by undersea landslides in the Sunda Strait following an eruption by the Anak Krakatoa volcano. World Vision, which is simultaneously responding to earthquakes on Lombok island and Central Sulawesi, is assisting children and families in some of the worst-affected areas of Serang and Pandeglang districts on the west coast of Java’s Banten province.",
     "injury_count": 300,
     "death_count": 110,
     "location": "Indonesia",
+    "images": [
+      "Indonesia-1.jpg",
+      "Indonesia-1.jpg"
+    ],
+    "latitude": 49.233,
+    "longitude": 40.33,
     "createdAt": "2019-06-24T16:47:40.817Z",
     "updatedAt": "2019-06-24T16:47:40.817Z",
+    "occurance_date": "2019-06-24T16:47:40.817Z",
     "__v": 0
   },
   {
-    "_id": "5d1104aa28ef152f2c32db44",
-    "title": "Syrian refugee crisis",
-    "description": "The Syrian refugee crisis is internationally recognized as the largest refugee and displacement crisis of our time. Half of the people affected are children. Despite a relative decrease in hostilities nationwide in 2018, the Syrian civil war caused another nearly 160,000 people to flee the country as refugees. This was largely due to the conflict in the Idlib region. As of Nov. 12, the total number of refugees now sits at more than 5.6 million, according to the United Nations Refugee Agency (UNHCR). About 6.2 million Syrians are displaced within the country. Those two figures amount to about 55 percent of Syria’s population. Hundreds of thousands of people have died. The war has set back the national standard of living by decades — now that healthcare facilities, schools, and water and sanitation systems have been damaged or destroyed. Right now, about 13.1 million people inside the country — almost three-quarters of the population — need humanitarian assistance.",
-    "injury_count": 0,
-    "death_count": 0,
-    "location": "Syria",
-    "createdAt": "2019-06-24T17:13:14.577Z",
-    "updatedAt": "2019-06-24T17:13:14.577Z",
+    "_id": "5d10feac28ef152f2c32db44",
+    "title": "BIndonesia earthquakes and tsunami",
+    "description": "More than 400 people are reported dead after a tsunami struck western Java and southern Sumatra islands during the evening of Dec. 22. Indonesia’s geological and weather service says the tsunami was likely caused by undersea landslides in the Sunda Strait following an eruption by the Anak Krakatoa volcano. World Vision, which is simultaneously responding to earthquakes on Lombok island and Central Sulawesi, is assisting children and families in some of the worst-affected areas of Serang and Pandeglang districts on the west coast of Java’s Banten province.",
+    "injury_count": 400,
+    "death_count": 110,
+    "location": "Indonesia",
+    "images": [
+      "Indonesia-1.jpg",
+      "Indonesia-1.jpg"
+    ],
+    "latitude": 23.233,
+    "longitude": 40.33,
+    "createdAt": "2019-06-24T16:47:40.817Z",
+    "updatedAt": "2019-06-24T16:47:40.817Z",
+    "occurance_date": "2019-06-24T16:47:40.817Z",
+    "__v": 0
+  },
+  {
+    "_id": "5d10feac28ef152f2c32db45",
+    "title": "CIndonesia earthquakes and tsunami",
+    "description": "More than 400 people are reported dead after a tsunami struck western Java and southern Sumatra islands during the evening of Dec. 22. Indonesia’s geological and weather service says the tsunami was likely caused by undersea landslides in the Sunda Strait following an eruption by the Anak Krakatoa volcano. World Vision, which is simultaneously responding to earthquakes on Lombok island and Central Sulawesi, is assisting children and families in some of the worst-affected areas of Serang and Pandeglang districts on the west coast of Java’s Banten province.",
+    "injury_count": 500,
+    "death_count": 110,
+    "location": "Indonesia",
+    "images": [
+      "Indonesia-1.jpg",
+      "Indonesia-1.jpg"
+    ],
+    "latitude": 10.233,
+    "longitude": 40.33,
+    "createdAt": "2019-06-24T16:47:40.817Z",
+    "updatedAt": "2019-06-24T16:47:40.817Z",
+    "occurance_date": "2019-06-24T16:47:40.817Z",
     "__v": 0
   }
 ]
