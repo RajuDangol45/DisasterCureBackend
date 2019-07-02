@@ -1,4 +1,3 @@
-const express = require('express');
 const disasterModel = require('../models/disaster');
 
 function getAllDisasters() {

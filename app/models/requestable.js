@@ -6,6 +6,6 @@ const requestableSchema = mongoose.Schema({
 }, {
   timestamps: true
 });
-const requestModel = mongoose.model('comments', requestableSchema);
+const requestModel = mongoose.model('requestables', requestableSchema);
 
 module.exports = requestModel;
