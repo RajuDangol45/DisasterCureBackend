@@ -6,7 +6,6 @@ const mongoose = require("mongoose");
 
 const config = require('../config');
 const routes = require('../app/routes');
-const jwt = require('./middlewares/jwt');
 
 function run() {
   const app = express();
@@ -14,7 +13,6 @@ function run() {
   app.use(bodyParser.urlencoded({ extended: true }));
   app.use(bodyParser.json({ limit: '50mb' }));
   app.use(cors());
-  // app.use(jwt());
   app.use(errorHandler);
   app.set('baseUrl', config.backend.url);
   app.use(routes);
