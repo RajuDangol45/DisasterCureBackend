@@ -42,7 +42,6 @@ app.get('/login', (req, res) => {
 
 app.post('/register', (req, res) => {
   const user = req.body;
-  console.log(user);
   getUserByEmail(user.email)
     .then((receivedUser) => {
       if (receivedUser && receivedUser[0]) {

@@ -1,10 +1,10 @@
 const app = module.exports = require('express')();
 const tokenChecker = require('../middlewares/jwt');
 
-const { getAllRequestable, addRequestable, getRequestableById } = require('../actions').requestable;
+const { getAllRequestables, addRequestable, getRequestableById } = require('../actions').requestable;
 
-app.get('/', tokenChecker.checkToken, (req, res) => {
-  getAllRequestable()
+app.get('/', (req, res) => {
+  getAllRequestables()
     .then((requestables) => {
       res.json(requestables);
     })
@@ -17,7 +17,7 @@ app.get('/', tokenChecker.checkToken, (req, res) => {
     })
 });
 
-app.post('/add', tokenChecker.checkToken, (req, res) => {
+app.post('/add', (req, res) => {
   addRequestable(req.body)
     .then((requestable) => {
       res.json(requestable);
@@ -31,7 +31,7 @@ app.post('/add', tokenChecker.checkToken, (req, res) => {
     })
 });
 
-app.get('/:id', tokenChecker.checkToken, (req, res) => {
+app.get('/:id', (req, res) => {
   getRequestableById(req.params.id)
     .then((requestable) => {
       res.json(requestable);

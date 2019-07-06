@@ -17,7 +17,7 @@ app.get('/', tokenChecker.checkToken, (req, res) => {
     })
 });
 
-app.post('/add', tokenChecker.checkToken, (req, res) => {
+app.post('/add', (req, res) => {
   addRequest(req.body)
     .then((request) => {
       res.json(request);

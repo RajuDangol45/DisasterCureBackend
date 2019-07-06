@@ -6,7 +6,6 @@ app.get('/', (req, res) => {
 
 app.use('/users', require('./users'));
 app.use('/disasters', require('./disaster'));
-app.use('/comments', require('./comment'));
 app.use('/requestable', require('./requestable'));
 app.use('/requests', require('./request'));
 app.use('/helps', require('./help'));
