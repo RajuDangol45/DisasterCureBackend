@@ -13,8 +13,13 @@ function getUserById(userId) {
   return userModel.findById(userId).exec();
 }
 
+function getUserByEmail(email){
+  return userModel.find({email: email}).exec();
+}
+
 module.exports = {
   getAllUsers,
   addUser,
-  getUserById
+  getUserById,
+  getUserByEmail
 }
