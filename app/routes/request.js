@@ -1,11 +1,12 @@
 const app = module.exports = require('express')();
+const tokenChecker = require('../middlewares/jwt');
 
 const { getAllRequests, getRequestById, addRequest } = require('../actions').request;
 
-app.get('/', (req, res) => {
+app.get('/', tokenChecker.checkToken, (req, res) => {
   getAllRequests()
-    .then((users) => {
-      res.json(users);
+    .then((requests) => {
+      res.json(requests);
     })
     .catch((err) => {
       res.status(400).send(
@@ -16,10 +17,10 @@ app.get('/', (req, res) => {
     })
 });
 
-app.post('/add', (req, res) => {
+app.post('/add', tokenChecker.checkToken, (req, res) => {
   addRequest(req.body)
-    .then((user) => {
-      res.json(user);
+    .then((request) => {
+      res.json(request);
     })
     .catch((err) => {
       res.status(400).send(
@@ -30,10 +31,10 @@ app.post('/add', (req, res) => {
     })
 });
 
-app.get('/:id', (req, res) => {
+app.get('/:id', tokenChecker.checkToken, (req, res) => {
   getRequestById(req.params.id)
-    .then((user) => {
-      res.json(user);
+    .then((request) => {
+      res.json(request);
     })
     .catch((err) => {
       res.status(400).send(

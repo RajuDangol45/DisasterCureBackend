@@ -1,4 +1,5 @@
 const app = module.exports = require('express')();
+const tokenChecker = require('../middlewares/jwt');
 
 const { getAllDisasters, getDisasterById, addDisaster } = require('../actions').disasters;
 
@@ -18,8 +19,8 @@ app.get('/', (req, res) => {
 
 app.post('/add', (req, res) => {
   addDisaster(req.body)
-    .then((user) => {
-      res.json(user);
+    .then((disaster) => {
+      res.json(disaster);
     })
     .catch((err) => {
       res.status(400).send(
@@ -32,8 +33,8 @@ app.post('/add', (req, res) => {
 
 app.get('/:id', (req, res) => {
   getDisasterById(req.params.id)
-    .then((user) => {
-      res.json(user);
+    .then((disaster) => {
+      res.json(disaster);
     })
     .catch((err) => {
       res.status(400).send(

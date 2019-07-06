@@ -1,11 +1,12 @@
 const app = module.exports = require('express')();
+const tokenChecker = require('../middlewares/jwt');
 
 const { getAllComments, getCommentById, addComment, getCommentByDisaster } = require('../actions').comments;
 
-app.get('/', (req, res) => {
+app.get('/', tokenChecker.checkToken, (req, res) => {
   getAllComments()
-    .then((users) => {
-      res.json(users);
+    .then((comments) => {
+      res.json(comments);
     })
     .catch((err) => {
       res.status(400).send(
@@ -16,10 +17,10 @@ app.get('/', (req, res) => {
     })
 });
 
-app.post('/add', (req, res) => {
+app.post('/add', tokenChecker.checkToken, (req, res) => {
   addComment(req.body)
-    .then((user) => {
-      res.json(user);
+    .then((comment) => {
+      res.json(comment);
     })
     .catch((err) => {
       res.status(400).send(
@@ -30,10 +31,10 @@ app.post('/add', (req, res) => {
     })
 });
 
-app.get('/:id', (req, res) => {
+app.get('/:id', tokenChecker.checkToken, (req, res) => {
   getCommentById(req.params.id)
-    .then((user) => {
-      res.json(user);
+    .then((comment) => {
+      res.json(comment);
     })
     .catch((err) => {
       res.status(400).send(
@@ -44,10 +45,10 @@ app.get('/:id', (req, res) => {
     })
 });
 
-app.get('/disaster/:id', (req, res) => {
+app.get('/disaster/:id', tokenChecker.checkToken, (req, res) => {
   getCommentByDisaster(req.params.id)
-    .then((user) => {
-      res.json(user);
+    .then((comment) => {
+      res.json(comment);
     })
     .catch((err) => {
       res.status(400).send(

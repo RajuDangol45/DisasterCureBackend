@@ -1,4 +1,5 @@
 const app = module.exports = require('express')();
+const tokenChecker = require('../middlewares/jwt');
 
 const { getAllUsers, addUser, getUserById } = require('../actions').users;
 
