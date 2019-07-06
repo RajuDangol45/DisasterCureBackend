@@ -2,7 +2,6 @@
   {
     "_id": "5d10feac28ef152f2c32db43",
     "title": "AIndonesia earthquakes and tsunami",
-    "date": "2019-06-24T16:47:40.817Z",
     "description": "More than 400 people are reported dead after a tsunami struck western Java and southern Sumatra islands during the evening of Dec. 22. Indonesia’s geological and weather service says the tsunami was likely caused by undersea landslides in the Sunda Strait following an eruption by the Anak Krakatoa volcano. World Vision, which is simultaneously responding to earthquakes on Lombok island and Central Sulawesi, is assisting children and families in some of the worst-affected areas of Serang and Pandeglang districts on the west coast of Java’s Banten province.",
     "injury_count": 300,
     "death_count": 110,
@@ -15,13 +14,12 @@
     "longitude": 40.33,
     "createdAt": "2019-06-24T16:47:40.817Z",
     "updatedAt": "2019-06-24T16:47:40.817Z",
-    "occurance_date": "2019-06-24T16:47:40.817Z",
+    "occurance_date": "2019-05-24T16:47:40.817Z",
     "__v": 0
   },
   {
     "_id": "5d10feac28ef152f2c32db44",
     "title": "BIndonesia earthquakes and tsunami",
-    "date": "2019-05-24T16:47:40.817Z",
     "description": "More than 400 people are reported dead after a tsunami struck western Java and southern Sumatra islands during the evening of Dec. 22. Indonesia’s geological and weather service says the tsunami was likely caused by undersea landslides in the Sunda Strait following an eruption by the Anak Krakatoa volcano. World Vision, which is simultaneously responding to earthquakes on Lombok island and Central Sulawesi, is assisting children and families in some of the worst-affected areas of Serang and Pandeglang districts on the west coast of Java’s Banten province.",
     "injury_count": 400,
     "death_count": 110,
@@ -34,13 +32,12 @@
     "longitude": 40.33,
     "createdAt": "2019-06-24T16:47:40.817Z",
     "updatedAt": "2019-06-24T16:47:40.817Z",
-    "occurance_date": "2019-06-24T16:47:40.817Z",
+    "occurance_date": "2019-04-24T16:47:40.817Z",
     "__v": 0
   },
   {
     "_id": "5d10feac28ef152f2c32db45",
     "title": "CIndonesia earthquakes and tsunami",
-    "date": "2019-03-24T16:47:40.817Z",
     "description": "More than 400 people are reported dead after a tsunami struck western Java and southern Sumatra islands during the evening of Dec. 22. Indonesia’s geological and weather service says the tsunami was likely caused by undersea landslides in the Sunda Strait following an eruption by the Anak Krakatoa volcano. World Vision, which is simultaneously responding to earthquakes on Lombok island and Central Sulawesi, is assisting children and families in some of the worst-affected areas of Serang and Pandeglang districts on the west coast of Java’s Banten province.",
     "injury_count": 500,
     "death_count": 110,
@@ -53,13 +50,12 @@
     "longitude": 40.33,
     "createdAt": "2019-06-24T16:47:40.817Z",
     "updatedAt": "2019-06-24T16:47:40.817Z",
-    "occurance_date": "2019-06-24T16:47:40.817Z",
+    "occurance_date": "2019-07-24T16:47:40.817Z",
     "__v": 0
   },
   {
     "_id": "5d10feac28ef152f2c32db46",
     "title": "QIndonesia earthquakes and tsunami",
-    "date": "2016-03-24T16:47:40.817Z",
     "description": "More than 400 people are reported dead after a tsunami struck western Java and southern Sumatra islands during the evening of Dec. 22. Indonesia’s geological and weather service says the tsunami was likely caused by undersea landslides in the Sunda Strait following an eruption by the Anak Krakatoa volcano. World Vision, which is simultaneously responding to earthquakes on Lombok island and Central Sulawesi, is assisting children and families in some of the worst-affected areas of Serang and Pandeglang districts on the west coast of Java’s Banten province.",
     "injury_count": 500,
     "death_count": 110,
@@ -72,13 +68,12 @@
     "longitude": 40.33,
     "createdAt": "2019-06-24T16:47:40.817Z",
     "updatedAt": "2019-06-24T16:47:40.817Z",
-    "occurance_date": "2019-06-24T16:47:40.817Z",
+    "occurance_date": "2019-09-24T16:47:40.817Z",
     "__v": 0
   },
   {
     "_id": "5d10feac28ef152f2c32db47",
     "title": "WIndonesia earthquakes and tsunami",
-    "date": "2017-03-24T16:47:40.817Z",
     "description": "More than 400 people are reported dead after a tsunami struck western Java and southern Sumatra islands during the evening of Dec. 22. Indonesia’s geological and weather service says the tsunami was likely caused by undersea landslides in the Sunda Strait following an eruption by the Anak Krakatoa volcano. World Vision, which is simultaneously responding to earthquakes on Lombok island and Central Sulawesi, is assisting children and families in some of the worst-affected areas of Serang and Pandeglang districts on the west coast of Java’s Banten province.",
     "injury_count": 500,
     "death_count": 110,
@@ -91,13 +86,12 @@
     "longitude": 40.33,
     "createdAt": "2019-06-24T16:47:40.817Z",
     "updatedAt": "2019-06-24T16:47:40.817Z",
-    "occurance_date": "2019-06-24T16:47:40.817Z",
+    "occurance_date": "2019-08-24T16:47:40.817Z",
     "__v": 0
   },
   {
     "_id": "5d10feac28ef152f2c32db48",
     "title": "EIndonesia earthquakes and tsunami",
-    "date": "2018-03-24T16:47:40.817Z",
     "description": "More than 400 people are reported dead after a tsunami struck western Java and southern Sumatra islands during the evening of Dec. 22. Indonesia’s geological and weather service says the tsunami was likely caused by undersea landslides in the Sunda Strait following an eruption by the Anak Krakatoa volcano. World Vision, which is simultaneously responding to earthquakes on Lombok island and Central Sulawesi, is assisting children and families in some of the worst-affected areas of Serang and Pandeglang districts on the west coast of Java’s Banten province.",
     "injury_count": 500,
     "death_count": 110,
@@ -110,7 +104,7 @@
     "longitude": 40.33,
     "createdAt": "2019-06-24T16:47:40.817Z",
     "updatedAt": "2019-06-24T16:47:40.817Z",
-    "occurance_date": "2019-06-24T16:47:40.817Z",
+    "occurance_date": "2019-01-24T16:47:40.817Z",
     "__v": 0
   }
 ]
