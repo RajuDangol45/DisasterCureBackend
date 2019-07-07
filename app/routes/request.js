@@ -3,7 +3,7 @@ const tokenChecker = require('../middlewares/jwt');
 
 const { getAllRequests, getRequestById, addRequest } = require('../actions').request;
 
-app.get('/', tokenChecker.checkToken, (req, res) => {
+app.get('/', (req, res) => {
   getAllRequests()
     .then((requests) => {
       res.json(requests);

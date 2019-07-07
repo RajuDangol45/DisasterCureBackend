@@ -27,6 +27,7 @@
     "migrate-mongo": "^6.0.0",
     "mongodb": "^3.2.7",
     "mongoose": "^5.6.0",
+    "multer": "^1.4.1",
     "node-migrate": "^0.1.0"
   }
 }

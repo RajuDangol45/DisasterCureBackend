@@ -13,8 +13,13 @@ function getHelpById(helpId) {
   return helpModel.findById(helpId).exec();
 }
 
+function deleteHelp(helpId){
+  return helpModel.findById(helpId).remove().exec();
+}
+
 module.exports = {
   getAllHelps,
   getHelpById,
-  addHelp
+  addHelp,
+  deleteHelp
 }

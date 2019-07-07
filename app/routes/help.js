@@ -1,9 +1,9 @@
 const app = module.exports = require('express')();
 const tokenChecker = require('../middlewares/jwt');
 
-const { getAllHelps, getHelpById, addHelp } = require('../actions').help;
+const { getAllHelps, getHelpById, addHelp, deleteHelp } = require('../actions').help;
 
-app.get('/', tokenChecker.checkToken, (req, res) => {
+app.get('/', (req, res) => {
   getAllHelps()
     .then((helps) => {
       res.json(helps);
@@ -17,7 +17,7 @@ app.get('/', tokenChecker.checkToken, (req, res) => {
     })
 });
 
-app.post('/add', tokenChecker.checkToken, (req, res) => {
+app.post('/add', (req, res) => {
   addHelp(req.body)
     .then((help) => {
       res.json(help);
@@ -43,4 +43,18 @@ app.get('/:id', tokenChecker.checkToken, (req, res) => {
         }
       );
     })
+});
+
+app.post('/delete', (req, res) => {
+  deleteHelp(req.body.id)
+  .then((help) => {
+    res.json(help);
+  })
+  .catch((err) => {
+    res.status(400).send(
+      {
+        msg: 'Failed to delete help', err
+      }
+    );
+  })
 });
