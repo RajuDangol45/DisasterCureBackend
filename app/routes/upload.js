@@ -5,8 +5,8 @@ const path = require('path');
 var storage = multer.diskStorage({
   destination: __dirname + '/../../images/users',
   filename: (req, file, done) => {
-      let ext = path.extname(file.originalname);
-      done(null, file.fieldname + Date.now() + ext);
+    let ext = path.extname(file.originalname);
+    done(null, file.fieldname + Date.now() + ext);
   }
 });
 var upload = multer({
@@ -15,11 +15,10 @@ var upload = multer({
 });
 
 app.post('/disaster-image', upload.single('photo'), (req, res) => {
-  console.log(req.body);
-  if(req.file){
+  if (req.file) {
     res.json(req.file);
   }
-  else{
+  else {
     res.send({
       upload: "failed"
     });
@@ -27,10 +26,10 @@ app.post('/disaster-image', upload.single('photo'), (req, res) => {
 });
 
 app.post('/user-image', upload.single('photo'), (req, res) => {
-  if(req.file){
+  if (req.file) {
     res.json(req.file);
   }
-  else{
+  else {
     res.send({
       upload: "failed"
     });
