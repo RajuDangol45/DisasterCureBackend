@@ -5,7 +5,8 @@ const userSchema = mongoose.Schema({
   lastName: String,
   password: String,
   email: String,
-  age: Number
+  age: Number,
+  photo: String
 }, {
   timestamps: true
 });
