@@ -17,9 +17,14 @@ function getUserByEmail(email){
   return userModel.find({email: email}).exec();
 }
 
+function updateUser(user){
+  return userModel.findByIdAndUpdate(user.id, user,{new: true});
+}
+
 module.exports = {
   getAllUsers,
   addUser,
   getUserById,
-  getUserByEmail
+  getUserByEmail,
+  updateUser
 }
