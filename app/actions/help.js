@@ -17,9 +17,14 @@ function deleteHelp(helpId){
   return helpModel.findById(helpId).remove().exec();
 }
 
+function updateHelp(help){
+  return helpModel.findByIdAndUpdate(help.id, help,{new: true});
+}
+
 module.exports = {
   getAllHelps,
   getHelpById,
   addHelp,
-  deleteHelp
+  deleteHelp,
+  updateHelp
 }

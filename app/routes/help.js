@@ -1,7 +1,7 @@
 const app = module.exports = require('express')();
 const tokenChecker = require('../middlewares/jwt');
 
-const { getAllHelps, getHelpById, addHelp, deleteHelp } = require('../actions').help;
+const { getAllHelps, getHelpById, addHelp, deleteHelp, updateHelp } = require('../actions').help;
 
 app.get('/', (req, res) => {
   getAllHelps()
@@ -57,4 +57,18 @@ app.post('/delete', (req, res) => {
       }
     );
   })
+});
+
+app.post('/update', (req, res) => {
+  updateHelp(req.body)
+    .then((user) => {
+      res.json(user);
+    })
+    .catch((err) => {
+      res.status(400).send(
+        {
+          msg: 'Failed to update help', err
+        }
+      );
+    })
 });
