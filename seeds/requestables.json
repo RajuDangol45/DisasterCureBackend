@@ -1,0 +1,20 @@
+[
+  {
+    "_id": "5d08cd4066445d3bdc8e4544",
+    "requestable_name": "Wool",
+    "worth": 100,
+    "__v": 0
+  },
+  {
+    "_id": "5d08cd4066445d3bdc8e4545",
+    "requestable_name": "Carpet",
+    "worth": 10,
+    "__v": 0
+  },
+  {
+    "_id": "5d08cd4066445d3bdc8e4546",
+    "requestable_name": "Bed",
+    "worth": 1000,
+    "__v": 0
+  }
+]
