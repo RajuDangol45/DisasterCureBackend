@@ -26,3 +26,8 @@ Disaster Cure will be a web application to effectively deal with issues that ari
 ## API Documentation
 List out your main APIs and its sample input and output!
 
+```
+function test() {
+  console.log("notice the blank line before this function?");
+}
+```
