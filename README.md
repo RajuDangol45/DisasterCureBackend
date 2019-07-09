@@ -30,7 +30,7 @@ Some of the crucial api endpoints and thier sample response are provided below:
 ```
 http://localhost:3000/auth/login?email=ab_de@gmail.com&password=password
 ```
-## Response
+Response
 ```
 {
     "success": true,
@@ -58,7 +58,7 @@ http://localhost:3000/auth/login?email=ab_de@gmail.com&password=password
 http://localhost:3000/auth/register
 ```
 
-## Body
+Body
 
 ```
 {
@@ -70,7 +70,7 @@ http://localhost:3000/auth/register
 }
 ```
 
-## Response
+Response
 ```
 {
     "success": true,
@@ -93,7 +93,7 @@ http://localhost:3000/auth/register
 ```
 http://localhost:3000/disasters
 ```
-## Response
+Response
 ```
 [
     {
@@ -122,14 +122,14 @@ http://localhost:3000/disasters
 http://localhost:3000/helps/update
 ```
 
-## Body
+Body
 ```
 {
 	"id": "5d21a094ad076744dc1a8d76",
   "helped_units" : "1"
 }
 ```
-## Response
+Response
 ```
 {
     "_id": "5d237b29f01f4a369c062d26",
@@ -151,13 +151,13 @@ http://localhost:3000/helps/update
 http://localhost:3000/helps/delete
 ```
 
-## Body
+Body
 ```
 {
 	"id": "5d21a094ad076744dc1a8d76"
 }
 ```
-## Response
+Response
 ```
 {
     "n": 1,
