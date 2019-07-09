@@ -16,11 +16,11 @@ Disaster Cure will be a web application to effectively deal with issues that ari
   
 • Facility to ask help for the effected
   The people affected from the disaster can ask post the situation of the place affected. They can post for the help and facilities they     are lacking. Basically, it provides, better communication between affected people and the parties involved. It also provides               transparency among people and responsible organizations so that there is no opportunity for mistake.
+  
 • Collaboration among helpers
-
   The disaster affected people require and expect help. Some helpers and nonprofit organizations conduct programs to help the affected.     These people will need a medium to communicate with other such people who want to help as well. Disaster Cure will provide them the       platform to communicate and collaborate.
+  
 • Collaboration among the effected
-
   Collaboration among the affected people is also equally important. Until external help arrives, they can help each other. Some may have   the required food which others lack. Some may have shelter that others don’t have. If these things can be shared and viewed it will be a    lot easier to control the after effects.
 
 ## API Documentation
